@@ -1,0 +1,9 @@
+{
+    "MONGODBURL": "",
+    "APP_URL": "",
+    "DISCORD_CLIENTID": "",
+    "DISCORD_CLIENTSECRET": "",
+    "DISCORD_REDIRECTURI": "",
+    "AUTHURL": "",
+    "ADMINID": ""
+}

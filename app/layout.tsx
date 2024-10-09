@@ -58,12 +58,12 @@ export default function RootLayout({
             <footer className="w-full flex flex-col items-center justify-center py-6 text-gray-300 shadow-lg mt-8">
               <div className="container mx-auto text-center">
                 <div className="flex justify-center space-x-4 mb-4">
-                  <ul>
-                    <li> <Link href="https://nexocrew.com/discord">
+                  <ul className="flex space-x-4">
+                    <li> <Link href="inline https://nexocrew.com/discord">
                       <DiscordIcon className="text-gray-400"></DiscordIcon>
                     </Link></li>
                     <li> <Link href="https://github.com/nexocrew-hq/linkr.li">
-                      <GithubIcon className="text-gray-400"></GithubIcon>
+                      <GithubIcon className="inline text-gray-400"></GithubIcon>
                     </Link></li>
                   </ul>
                 </div>

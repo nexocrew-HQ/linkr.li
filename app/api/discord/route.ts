@@ -20,8 +20,8 @@ export async function GET(req: Request) {
 
     oauth
       .tokenRequest({
-        clientId: "332269999912132097",
-        clientSecret: "937it3ow87i4ery69876wqire",
+        clientId: "332269999912132097", // This is a fake client ID
+        clientSecret: "937it3ow87i4ery69876wqire", // This is a fake secret
 
         code: "query code",
         scope: "identify guilds",

@@ -11,7 +11,6 @@ export default function Home() {
 
     const [isAuthenticated, setIsAuthenticated] = useState(false);
 
-
     useEffect(() => {
         async function checkAuth() {
             const isAuthenticated = await getCookie();
